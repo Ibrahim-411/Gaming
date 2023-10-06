@@ -1,0 +1,965 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.container1 {
+    height: 147vh;
+    width: 100%;
+
+}
+
+.container2 {
+    height: 147vh;
+    width: 100%;
+    margin-top: -275px;
+
+}
+
+.container3 {
+    height: 147vh;
+    width: 100%;
+    margin-top: -275px;
+
+}
+
+.container4 {
+    height: 147vh;
+    width: 100%;
+    margin-top: -275px;
+
+
+}
+
+.navbar {
+    display: flex;
+    margin: 18px 0px 0px -79px;
+    z-index: 99999;
+
+}
+
+.navigation {
+    display: flex;
+    position: fixed;
+    font-family: REM, sans-serif;
+    color: rgb(255, 255, 255);
+    background: cadetblue;
+    width: 106%;
+    height: 36px;
+    margin-top: -18px;
+    z-index: 9;
+}
+
+header::before {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(/image/apunkagames-background-image.jpg)no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+
+}
+
+.search {
+    margin-left: 1270px;
+    margin-top: 4px;
+    display: flow;
+    position: fixed;
+}
+
+li {
+    list-style: none;
+    font-weight: 600;
+    margin-left: 12px;
+}
+
+.item {
+    list-style: none;
+    font-weight: 600;
+    margin-left: 60px;
+    margin-top: 6px;
+}
+
+li.item:hover {
+    background-color: gray;
+    border-radius: 6px;
+    height: 30px;
+    width: 85px;
+    font-weight: 600;
+    transition: all 0.4s;
+    transform: scale(109%);
+
+}
+
+section {
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+}
+
+section::before {
+    font-size: 20px;
+}
+
+
+
+#main {
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Ruwudu', serif;
+    margin-top: 14px;
+
+}
+
+.box h2 {
+    background-color: rgb(139 138 138 / 0.8);
+    margin-top: -10px;
+    color: black;
+}
+
+#cato {
+    background-color: rgba(121, 143, 157, 255);
+    text-align: center;
+    width: 40%;
+    margin: 275px auto auto;
+    border-radius: 20px;
+    padding: 11px 0px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#cato:hover {
+    background-color: lightseagreen;
+    transition: all 0.3s;
+    transform: scale(105%);
+}
+
+.imgbox {
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+    padding: 0 5%;
+    width: 85%;
+    height: auto;
+    margin-left: 20px;
+}
+
+.imgbox2 {
+    display: flex;
+    gap: 6%;
+    padding: 0 5%;
+    width: 85%;
+    height: auto;
+    margin-left: 20px;
+}
+
+.box {
+    width: 30%;
+    height: 253px;
+    padding: 23px 12px;
+    margin: 51px 12px;
+    text-align: center;
+    border-bottom: 120px solid #ffff;
+    color: white;
+    border-radius: 30px 30px 30px 30px;
+}
+
+#para {
+    border: 1px solid white;
+    margin: 286px -13px;
+    font-size: 17px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+#card1 {
+    background: url(https://thumbnails.pcgamingwiki.com/1/15/Crysis_3_Remastered_cover.jpg/300px-Crysis_3_Remastered_cover.jpg) no-repeat center center/cover;
+}
+
+#card2 {
+    background: url(https://asset.kompas.com/crops/vuoTxhFzG-QtQdLNHKVF8ZMg_vU=/100x0:1180x720/750x500/data/photo/2022/06/28/62ba89c40c745.jpg)no-repeat center center/cover;
+}
+
+
+#card3 {
+    background: url(https://oceanofgamese.net/wp-content/uploads/2021/01/Borderlands-3-Free-Download-PC-Game.png)no-repeat center center/cover;
+}
+
+#card4 {
+    background: url(https://images.hdqwalls.com/download/call-of-duty-black-ops-3-1440x900.jpg)no-repeat center center/cover;
+}
+
+#card5 {
+    background: url(https://store.ubisoft.com/dw/image/v2/ABBS_PRD/on/demandware.static/-/Sites-masterCatalog/default/dwe0fd4676/images/large/5924576188a7e3bc5a8b4568.jpg?sw=341&sh=450&sm=fit)no-repeat center center/cover;
+}
+
+#card6 {
+    background: url(https://images7.alphacoders.com/923/923038.png)no-repeat center center/cover;
+}
+
+#card7 {
+    background: url(https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA08519_00/12/i_3da1cf7c41dc7652f9b639e1680d96436773658668c7dc3930c441291095713b/i/icon0.png)no-repeat center center/cover;
+}
+
+#card8 {
+    background: url(https://cloudfront.first4figures.com/media/resized/l-890-369/blog/1/143_SpiderMan_TT_Cover_3.jpg)no-repeat center center/cover;
+}
+
+#card9 {
+    background: url(/image/41767278_362455017631913_6735001211866107599_n.jpg)no-repeat center center/cover;
+}
+
+#card10 {
+    background: url(https://i0.wp.com/www.gamesbap.com/wp-content/uploads/2021/09/How-Much-Space-The-Witcher-Take.jpg?fit=1366%2C768&ssl=1)no-repeat center center/cover;
+}
+
+#card11 {
+    background: url(https://assets-prd.ignimgs.com/2021/12/07/tlou-1638842419547.jpg)no-repeat center center/cover;
+}
+
+#card12 {
+    background: url(https://assets-prd.ignimgs.com/2022/01/04/unchartedcollection-1641338408063.jpg)no-repeat center center/cover;
+}
+
+#card13 {
+    background: url(https://www.digiseller.ru/preview/1018672/p1_3666805_a7b71483.png)no-repeat center center/cover;
+}
+
+#card14 {
+    background: url(https://assets1.ignimgs.com/2017/06/02/need-for-speed-payback-button-00-1496438898941.jpg)no-repeat center center/cover;
+}
+
+#card15 {
+    background: url(https://st3.myideasoft.com/idea/gl/80/myassets/products/059/fifa-png.jpg?revision=1594104322)no-repeat center center/cover;
+}
+
+#card16 {
+    background: url(https://www.godisageek.com/wp-content/uploads/NBA-2K23-review-1024x576.jpg)no-repeat center center/cover;
+}
+
+#card17 {
+    background: url(https://www.insidesport.in/wp-content/uploads/2023/01/featured-2.jpg?w=690)no-repeat center center/cover;
+}
+
+#card18 {
+    background: url(https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/t/trials-rising-standard-edition-switch/hero)no-repeat center center/cover;
+}
+
+#card19 {
+    background: url(https://howlongtobeat.com/games/101305_Assassins_Creed_Valhalla_Dawn_of_Ragnarok.jpg)no-repeat center center/cover;
+}
+
+#card20 {
+    background: url(https://image.api.playstation.com/cdn/UP0001/CUSA13917_00/7R5P2FKlIJIsviJJk8BY1KnHDmm40Nqm.png)no-repeat center center/cover;
+}
+
+#card21 {
+    background: url(https://gamessocool.com/images/g1.png)no-repeat center center/cover;
+}
+
+#card22 {
+    background: url(https://image.api.playstation.com/vulcan/img/rnd/202106/2908/7aJhOMuJALdBPqZHVy3CgJsg.png)no-repeat center center/cover;
+}
+
+#card23 {
+    background: url(https://image.api.playstation.com/vulcan/ap/rnd/202007/0217/OX5mEmwgRPeSQrhGFU3n4moZ.png)no-repeat center center/cover;
+}
+
+#card24 {
+    background: url(https://omggamer.com/wp-content/uploads/2022/12/Ghost-of-Tsushima-2-Release-Date-Trailer-Rumors.jpg)no-repeat center center/cover;
+}
+
+.p {
+    margin-top: 311px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.box:hover {
+    transition: all 0.3s;
+    transform: scale(105%);
+}
+
+.icon {
+    left: 1383px;
+    top: 19px;
+    z-index: 999999;
+    position: relative;
+    position: fixed;
+}
+
+.logo img {
+    filter: invert(1);
+}
+
+.fo {
+    display: flex;
+    padding: 13px 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+}
+
+.fo li:hover {
+    border: 1px solid white;
+}
+
+.footer {
+    background-color: rgba(121, 143, 157, 255);
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#lang {
+    padding: 11px;
+    text-align: center;
+    font-weight: 900;
+    margin: -15px 10px 9px 195px;
+    border-radius: 16px;
+}
+
+
+.icon1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 55px -40px;
+}
+
+#icon2:hover {
+    color: white;
+    transition: all 0.3s;
+    transform: scale(200%);
+}
+
+#globe {
+    margin: 42px 171px 0px;
+    padding-top: 0px;
+    font-size: 20px;
+    height: 3px;
+}
+
+.border {
+    text-align: center;
+}
+
+.frow {
+    text-align: center;
+}
+
+@media (max-width:1150px) {
+    .search {
+        margin-left: 923px;
+    }
+
+    .imgbox2 {
+        margin-top: -57px;
+    }
+
+    .navigation {
+        width: 108%;
+    }
+}
+
+@media (max-width:1050px) {
+    header::before {
+        width: 111%;
+    }
+
+    section {
+        margin-top: 31px;
+        margin-left: 146px;
+    }
+
+
+    .search {
+        margin-left: 960px;
+    }
+
+    #cato {
+        margin: 172px auto auto 370px;
+    }
+
+    .container1 {
+        height: 164vh;
+        width: 103%;
+        margin-top: -26px;
+    }
+
+    .container4 {
+        height: 164vh;
+        width: 103%;
+    }
+
+    .container3 {
+        height: 164vh;
+        width: 103%;
+    }
+
+    .container2 {
+        height: 164vh;
+        width: 103%;
+    }
+
+    .imgbox {
+        gap: 3%;
+        width: 92%;
+        margin-left: 53px;
+    }
+
+    .imgbox2 {
+        gap: 3%;
+        width: 92%;
+        margin-left: 53px;
+
+    }
+
+    .footer {
+        width: 111%;
+    }
+
+}
+
+@media(max-width :1000px) {
+    header::before {
+        width: 119%;
+    }
+
+    .search {
+        margin-left: 983px;
+    }
+
+    section {
+        margin-left: 187px;
+    }
+
+    #cato {
+        margin-top: 193px;
+    }
+
+    .container1 {
+        width: 109%;
+        margin-top: -52px;
+    }
+
+    .container4 {
+        width: 109%;
+    }
+
+    .container3 {
+        width: 109%;
+    }
+
+    .container2 {
+        width: 109%;
+    }
+
+    .imgbox {
+        width: 97%;
+        margin-left: 18px;
+    }
+
+    .imgbox2 {
+        width: 97%;
+        margin-left: 18px;
+    }
+
+    .footer {
+        width: 119%;
+    }
+
+}
+
+@media(max-width :950px) {
+    header::before {
+        width: 125%;
+    }
+
+    section {
+        margin-top: 5%;
+        margin-left: 28%;
+    }
+
+    #cato {
+        margin: 190px auto auto 370px;
+    }
+
+    .footer {
+        width: 125%;
+    }
+
+    .container1 {
+        width: 115%;
+    }
+
+    .container4 {
+        width: 115%;
+    }
+
+    .container3 {
+        width: 115%;
+    }
+
+    .container2 {
+        width: 115%;
+    }
+}
+
+@media(max-width :900px) {
+    section {
+        margin-right: -80px;
+    }
+
+    header::before {
+        width: 138%;
+    }
+
+    .container1 {
+        width: 125%;
+    }
+
+    .container4 {
+        width: 125%;
+    }
+
+    .container3 {
+        width: 125%;
+    }
+
+    .container2 {
+        width: 125%;
+    }
+
+    .footer {
+        width: 138%;
+    }
+
+    .imgbox {
+        gap: 2%;
+        width: 98%
+    }
+
+    .imgbox2 {
+        gap: 2%;
+        width: 98%
+    }
+}
+
+@media(max-width :850px) {
+    header::before {
+        width: 162%;
+        margin-top: 38px;
+    }
+
+    #cato {
+        margin: 222px auto auto 402px;
+    }
+
+    .footer {
+        width: 162%;
+    }
+
+    section {
+        margin-right: -267px;
+    }
+
+    .search {
+        margin-left: 1134px;
+    }
+
+    .container1 {
+        width: 147%;
+    }
+
+    .container4 {
+        width: 147%;
+    }
+
+    .container3 {
+        width: 147%;
+    }
+
+    .container2 {
+        width: 147%;
+    }
+
+    .imgbox {
+        width: 100%;
+        margin-left: -3px;
+    }
+
+    .imgbox2 {
+        width: 100%;
+        margin-left: -3px;
+    }
+}
+
+@media(max-width :800px) {
+    .search {
+        margin-left: 1067px;
+    }
+
+    section {
+        margin-top: 5%;
+        margin-left: 30%;
+    }
+}
+
+@media(max-width :750px) {
+    .search {
+        margin-left: 980px;
+    }
+
+    #cato {
+        margin: 222px auto auto 358px;
+    }
+
+    section {
+        margin-left: 24%;
+    }
+}
+
+@media (max-width:700px) {
+    header::before {
+        width: 171%;
+    }
+
+    section {
+        margin-left: 32%;
+    }
+
+    #cato {
+        margin-top: 225px;
+    }
+
+    .footer {
+        width: 171%;
+    }
+
+    .search {
+        margin-left: 964px;
+    }
+
+    .container1 {
+        width: 156%;
+    }
+
+    .container4 {
+        width: 156%;
+
+    }
+
+    .container3 {
+        width: 156%;
+
+    }
+
+    .container2 {
+        width: 156%;
+
+    }
+
+}
+
+@media (max-width: 650px) {
+    header::before {
+        width: 185%;
+    }
+
+    section {
+        margin-left: 247px;
+    }
+
+    .container1 {
+        width: 168%;
+    }
+
+    .container4 {
+        width: 168%;
+        margin-top: -226px;
+    }
+
+    .container3 {
+        width: 168%;
+    }
+
+    .container2 {
+        width: 168%;
+    }
+
+    .footer {
+        width: 185%;
+    }
+}
+
+@media (max-width: 600px) {
+    header::before {
+        width: 204%;
+    }
+
+    h1 {
+        width: 110%;
+    }
+
+    section {
+        margin-left: 247px;
+    }
+
+
+    .container1 {
+        width: 186%;
+    }
+
+    .container4 {
+        width: 186%;
+    }
+
+    .container3 {
+        width: 186%;
+    }
+
+    .container2 {
+        width: 186%;
+    }
+
+    .footer {
+        width: 204%;
+    }
+}
+
+@media (max-width: 550px) {
+    header::before {
+        width: 224%;
+    }
+
+    h1 {
+        width: 153%;
+        margin-left: 142px;
+    }
+
+    section {
+        margin-left: 304px;
+    }
+
+    #cato {
+        margin-top: 184px;
+    }
+
+    .container1 {
+        width: 204%;
+    }
+
+    .container4 {
+        width: 204%;
+    }
+
+    .container3 {
+        width: 204%;
+    }
+
+    .container2 {
+        width: 204%;
+    }
+
+    .footer {
+        width: 224%;
+    }
+}
+
+@media (max-width: 500px) {
+    header::before {
+        width: 247%;
+    }
+
+    section {
+        margin-right: -340px;
+    }
+
+    .logo img {
+        margin-top: 26px;
+    }
+
+    h1 {
+        width: 140%;
+    }
+
+    .container1 {
+        width: 225%;
+    }
+
+    .container4 {
+        width: 225%;
+    }
+
+    .container3 {
+        width: 225%;
+    }
+
+    .container2 {
+        width: 225%;
+    }
+
+    .footer {
+        width: 247%;
+    }
+}
+
+@media (max-width:450px) {
+    header::before {
+        width: 278%;
+    }
+
+    section {
+        margin-right: -395px;
+    }
+
+    h1 {
+        width: 154%;
+    }
+
+    #cato {
+        margin-top: 219px;
+    }
+
+    .container1 {
+        width: 253%;
+    }
+
+    .container4 {
+        width: 253%;
+    }
+
+    .container3 {
+        width: 253%;
+    }
+
+    .container2 {
+        width: 253%;
+    }
+
+    .footer {
+        width: 278%;
+    }
+}
+
+@media (max-width: 400px) {
+    header::before {
+        width: 310%;
+    }
+
+    .p {
+        margin-top: 344px;
+    }
+
+    .search {
+        margin-left: 1012px;
+    }
+
+    h1 {
+       width:123%;
+    }
+
+    .box {
+        height: 278px;
+    }
+
+    section {
+        margin-right: -526px;
+    }
+
+    .imgbox2 {
+        width: 104%;
+        margin-left: -11px;
+    }
+
+    .imgbox {
+        width: 104%;
+        margin-left: -11px;
+    }
+
+    #cato {
+        margin-top: 331px;
+        margin-left: 399px;
+    }
+
+    .container1 {
+        width: 275%;
+        margin-top: -236px;
+    }
+
+    .container4 {
+        width: 275%;
+        margin-top: -397px;
+    }
+
+    .container3 {
+        width: 275%;
+        margin-top: -397px;
+    }
+
+    .container2 {
+        width: 275%;
+        margin-top: -397px;
+    }
+
+    .footer {
+        width: 310%;
+    }
+}
+
+@media (max-width: 350px) {
+    header::before {
+        width: 389%;
+        margin-top: 14%;
+    }
+
+    section {
+        margin-right: -515px;
+    }
+
+    .search {
+        margin-left: 1014px;
+    }
+
+    .imgbox {
+        width: 105%;
+    }
+
+    .imgbox2 {
+        width: 105%;
+    }
+
+    .container1 {
+        width: 341%;
+        margin-top: -48px;
+    }
+
+    .container4 {
+        width: 341%;
+    }
+
+    .container3 {
+        width: 341%;
+    }
+
+    .container2 {
+        width: 341%;
+    }
+
+    .footer {
+        width: 389%;
+    }
+}
